@@ -39,7 +39,7 @@ const PrintTask = ({tasks, state}) =>{
                                     </div>
                                     <div className="col-8">
                                         <div className="rowTask">
-                                            <div className="form-text">
+                                            <div>
                                                 Name:  {element.student}
                                             </div>
                                             <div>
