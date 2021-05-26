@@ -16,8 +16,8 @@ const ChecTask = ({checkElement, state}) => {
 
     return(
         <>
-            <input type="checkbox" id="complete" onChange={handleCheked} autoFocus={true}/>
-            <label htmlFor="complete"><i className="fas fa-pencil-alt Icheck"></i></label>
+            <input type="checkbox" id="complete" onChange={handleCheked}/>
+            <label><i className="fas fa-pencil-alt Icheck"></i></label>
         </>
     )
 }
